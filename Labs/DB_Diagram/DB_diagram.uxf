@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>400</y>
+      <w>250</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Course
+--
+Course Number
+Course title
+Course objective
+
+Textbook_id : Textbook
+Instructor_id : Instructor
+CourseSection_id: Course Section
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>90</y>
+      <w>180</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Instructor
+--
+Instructor ID
+Instructor OH
+Instructor name
+
+Course_id : Course
+TA_id : TA
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>270</y>
+      <w>190</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes> Textbook
+--
+Textbook price
+Textbook author
+Textbook ISBN
+Textbook title
+Textbook Publisher
+Copyright Date
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>90</x>
+      <y>510</y>
+      <w>190</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>TA
+--
+TA name
+TA student id
+
+Course_id : Course</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>120</y>
+      <w>170</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>CourseSection
+--
+Section Days
+Section Capacity
+Section Time</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>550</y>
+      <w>180</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Classroom
+--
+Classroom #
+Classroom Capcity
+
+Building_id : Building</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>500</x>
+      <y>270</y>
+      <w>170</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Building
+--
+Building name
+Building #</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
