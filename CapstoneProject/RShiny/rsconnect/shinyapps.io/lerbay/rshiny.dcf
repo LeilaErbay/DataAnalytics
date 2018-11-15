@@ -1,0 +1,10 @@
+name: rshiny
+title:
+username:
+account: lerbay
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 401783
+bundleId: 1539935
+url: https://lerbay.shinyapps.io/rshiny/
+when: 1534484596.43232
